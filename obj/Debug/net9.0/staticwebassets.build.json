@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KCMpbFSaLKI2s5i3Tn/NedDlrgirJklBGjLkpEYIoHo=",
+  "Hash": "rs0DOn8JeZOjHlBnojTKNOfDvoDC6C3OIVge6iYbR7g=",
   "Source": "WebCantabra1",
   "BasePath": "_content/WebCantabra1",
   "Mode": "Default",
@@ -857,12 +857,12 @@
       "OriginalItemSpec": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-awplvzu0q7.gz",
+      "Identity": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-uvulsa01l4.gz",
       "SourceId": "WebCantabra1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/WebCantabra1",
-      "RelativePath": "css/site#[.{fingerprint=awplvzu0q7}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=uvulsa01l4}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -871,8 +871,8 @@
       "RelatedAsset": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5hhjwzjsak",
-      "Integrity": "OZuN1vvNg4d4i/wf0ESe5BJw2TisXXNnAxF0sRC0Z4E=",
+      "Fingerprint": "trt5a7izd6",
+      "Integrity": "BzQKi80FVcqk00Hpt2w0T+ZOREV0OjphKb0D43K9OIs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "awplvzu0q7",
-      "Integrity": "pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE=",
+      "Fingerprint": "uvulsa01l4",
+      "Integrity": "ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.awplvzu0q7.css",
-      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-awplvzu0q7.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-uvulsa01l4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002212389381"
+          "Quality": "0.001290322581"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "451"
+          "Value": "774"
         },
         {
           "Name": "ETag",
-          "Value": "\"OZuN1vvNg4d4i/wf0ESe5BJw2TisXXNnAxF0sRC0Z4E=\""
+          "Value": "\"BzQKi80FVcqk00Hpt2w0T+ZOREV0OjphKb0D43K9OIs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:36:35 GMT"
+          "Value": "Sat, 26 Apr 2025 23:04:24 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2772,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE=\""
+          "Value": "W/\"ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "awplvzu0q7"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE="
+          "Value": "sha256-ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg="
         }
       ]
     },
     {
-      "Route": "css/site.awplvzu0q7.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1092"
+          "Value": "2494"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2801,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE=\""
+          "Value": "\"ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:36:35 GMT"
+          "Value": "Sat, 26 Apr 2025 23:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-uvulsa01l4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "774"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BzQKi80FVcqk00Hpt2w0T+ZOREV0OjphKb0D43K9OIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 23:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BzQKi80FVcqk00Hpt2w0T+ZOREV0OjphKb0D43K9OIs="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.uvulsa01l4.css",
+      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-uvulsa01l4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001290322581"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "774"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BzQKi80FVcqk00Hpt2w0T+ZOREV0OjphKb0D43K9OIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 23:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uvulsa01l4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.uvulsa01l4.css",
+      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 23:04:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "awplvzu0q7"
+          "Value": "uvulsa01l4"
         },
         {
           "Name": "label",
@@ -2831,13 +2968,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE="
+          "Value": "sha256-ZiyFSYGJ0MaTPF041AjZK/EivwsdfSFXwv/zDdCWDvg="
         }
       ]
     },
     {
-      "Route": "css/site.awplvzu0q7.css.gz",
-      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-awplvzu0q7.gz",
+      "Route": "css/site.uvulsa01l4.css.gz",
+      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-uvulsa01l4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "451"
+          "Value": "774"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OZuN1vvNg4d4i/wf0ESe5BJw2TisXXNnAxF0sRC0Z4E=\""
+          "Value": "\"BzQKi80FVcqk00Hpt2w0T+ZOREV0OjphKb0D43K9OIs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:36:35 GMT"
+          "Value": "Sat, 26 Apr 2025 23:04:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "awplvzu0q7"
+          "Value": "uvulsa01l4"
         },
         {
           "Name": "label",
@@ -2884,144 +3021,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OZuN1vvNg4d4i/wf0ESe5BJw2TisXXNnAxF0sRC0Z4E="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-awplvzu0q7.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002212389381"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "451"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OZuN1vvNg4d4i/wf0ESe5BJw2TisXXNnAxF0sRC0Z4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:36:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1092"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:36:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-pr5X2epOWGCPn/cuX2XOO+H4Rkn1LpKF2WrI5zlwOjE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\obj\\Debug\\net9.0\\compressed\\lkp1yazd3b-awplvzu0q7.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "451"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OZuN1vvNg4d4i/wf0ESe5BJw2TisXXNnAxF0sRC0Z4E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 21:36:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OZuN1vvNg4d4i/wf0ESe5BJw2TisXXNnAxF0sRC0Z4E="
+          "Value": "sha256-BzQKi80FVcqk00Hpt2w0T+ZOREV0OjphKb0D43K9OIs="
         }
       ]
     },

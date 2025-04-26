@@ -115,7 +115,6 @@ C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\bin\Debug\net9
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\scopedcss\bundle\WebCantabra1.styles.css
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\scopedcss\projectbundle\WebCantabra1.bundle.scp.css
-C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\compressed\lkp1yazd3b-awplvzu0q7.gz
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\compressed\4t0o1m2sga-61n19gt1b8.gz
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\compressed\88g4te188o-xtxxf3hu2r.gz
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\compressed\jw9878r45h-bqjiyaj88i.gz
@@ -194,3 +193,5 @@ C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\WebCantabra1.pdb
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\WebCantabra1.genruntimeconfig.cache
 C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\ref\WebCantabra1.dll
+C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\WebCantabra1.sourcelink.json
+C:\Users\elraf\Documents\ProgramasTRAEia\WebCantabra\WebCantabra1\obj\Debug\net9.0\compressed\lkp1yazd3b-uvulsa01l4.gz

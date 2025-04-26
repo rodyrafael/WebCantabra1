@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebCantabra1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8936f26830d03542c227c5cde07de73f8aee11e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebCantabra1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebCantabra1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

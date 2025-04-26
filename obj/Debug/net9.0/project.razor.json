@@ -19491,6 +19491,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\Pages\\Dashboard.cshtml",
+      "TargetPath": "Pages\\Dashboard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\elraf\\Documents\\ProgramasTRAEia\\WebCantabra\\WebCantabra1\\Pages\\Products\\Edit.cshtml",
       "TargetPath": "Pages\\Products\\Edit.cshtml",
       "FileKind": "mvc"
