@@ -1,0 +1,59 @@
+@page
+@model WebCantabra1.Pages.Orders.IndexModel
+@{
+    ViewData["Title"] = "Pedidos";
+}
+
+<h1>Gestión de Pedidos</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Crear Nuevo Pedido</a>
+</p>
+
+@if (!Model.Orders.Any())
+{
+    <div class="alert alert-info">
+        No hay pedidos registrados en el sistema.
+    </div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Cliente</th>
+                <th>Fecha</th>
+                <th>Estado</th>
+                <th>Total</th>
+                <th>Productos</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model.Orders)
+            {
+                <tr>
+                    <td>@order.OrderId</td>
+                    <td>@(order.Customer?.Name ?? "Cliente no encontrado")</td>
+                    <td>@order.OrderDate.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>@order.Status</td>
+                    <td>@order.TotalAmount.ToString("C")</td>
+                    <td>
+                        @(order.OrderItems?.Count ?? 0) productos
+                    </td>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@order.OrderId" class="btn btn-info btn-sm">Detalles</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (!ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </div>
+}

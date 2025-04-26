@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido a WEB-Cántabra</h1>
+    <p>Sistema de gestión de pedidos</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Pedidos</h5>
+                <p class="card-text">Gestione los pedidos de los clientes</p>
+                <a href="/Orders" class="btn btn-primary">Ver Pedidos</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Productos</h5>
+                <p class="card-text">Administre el catálogo de productos</p>
+                <a href="/Products" class="btn btn-primary">Ver Productos</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Clientes</h5>
+                <p class="card-text">Gestione la información de clientes</p>
+                <a href="/Customers" class="btn btn-primary">Ver Clientes</a>
+            </div>
+        </div>
+    </div>
+</div>

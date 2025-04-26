@@ -1,0 +1,60 @@
+@page
+@model WebCantabra1.Pages.Orders.CreateModel
+@{
+    ViewData["Title"] = "Crear Pedido";
+}
+
+<h1>Crear Nuevo Pedido</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group mb-3">
+                <label asp-for="Order.CustomerId" class="control-label">Cliente</label>
+                <select asp-for="Order.CustomerId" class="form-control" asp-items="Model.CustomerList">
+                    <option value="">-- Seleccionar Cliente --</option>
+                </select>
+                <span asp-validation-for="Order.CustomerId" class="text-danger"></span>
+            </div>
+
+            <div id="productList">
+                <div class="product-item border p-3 mb-3">
+                    <div class="form-group">
+                        <label>Producto</label>
+                        <select name="ProductIds" class="form-control" asp-items="Model.ProductList">
+                            <option value="">-- Seleccionar Producto --</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label>Cantidad</label>
+                        <input type="number" name="Quantities" class="form-control" min="1" value="1" />
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="btn btn-secondary mt-2" onclick="addProductField()">Agregar Otro Producto</button>
+            <hr />
+            <button type="submit" class="btn btn-primary">Crear Pedido</button>
+            <a asp-page="Index" class="btn btn-secondary">Volver</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function addProductField() {
+            const productList = document.getElementById('productList');
+            const newItem = productList.children[0].cloneNode(true);
+            
+            // Limpiar los valores
+            const select = newItem.querySelector('select');
+            const input = newItem.querySelector('input');
+            select.value = '';
+            input.value = '1';
+            
+            productList.appendChild(newItem);
+        }
+    </script>
+}

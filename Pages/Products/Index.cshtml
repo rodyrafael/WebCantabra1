@@ -1,0 +1,40 @@
+@page
+@model WebCantabra1.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<h1>Gestión de Productos</h1>
+
+<p>
+    <a href="/Products/Create" class="btn btn-primary">Crear Nuevo Producto</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.ProductId</td>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Price.ToString("C")</td>
+                <td>@product.Stock</td>
+                <td>
+                    <a href="/Products/Edit/@product.ProductId" class="btn btn-warning btn-sm">Editar</a>
+                    <a href="/Products/Delete/@product.ProductId" class="btn btn-danger btn-sm">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

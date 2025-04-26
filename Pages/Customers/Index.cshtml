@@ -1,0 +1,40 @@
+@page
+@model WebCantabra1.Pages.Customers.IndexModel
+@{
+    ViewData["Title"] = "Clientes";
+}
+
+<h1>Gestión de Clientes</h1>
+
+<p>
+    <a href="/Customers/Create" class="btn btn-primary">Crear Nuevo Cliente</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Teléfono</th>
+            <th>Dirección</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model.Customers)
+        {
+            <tr>
+                <td>@customer.CustomerId</td>
+                <td>@customer.Name</td>
+                <td>@customer.Email</td>
+                <td>@customer.Phone</td>
+                <td>@customer.Address</td>
+                <td>
+                    <a href="/Customers/Edit/@customer.CustomerId" class="btn btn-warning btn-sm">Editar</a>
+                    <a href="/Customers/Details/@customer.CustomerId" class="btn btn-info btn-sm">Detalles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
